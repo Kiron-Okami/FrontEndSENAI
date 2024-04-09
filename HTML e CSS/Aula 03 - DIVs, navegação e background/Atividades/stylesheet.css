@@ -1,0 +1,28 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#cabecalho {
+    background-image: url(img/cupcake.png);
+    background-color: #e98ed5;
+    background-size: contain;
+    width: 100%;
+    height: 100px;
+}
+
+body {
+    background-color: #2b2c2b;
+}
+
+a {
+    color: aliceblue;
+}
+
+.cartazes {
+    background-color: #818181;
+    height: 500px;
+    width: 400px;
+    margin: 10px 10px auto;
+    border-radius: 10%;
+}
