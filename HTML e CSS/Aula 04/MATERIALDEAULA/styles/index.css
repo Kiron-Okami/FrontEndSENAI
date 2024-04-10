@@ -1,0 +1,42 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#pai {
+    width: 400px;
+    height: 100px;
+    background-color: crimson;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.filhos {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(130, 194, 246);
+}
+
+#cabecalho {
+    width: 100%;
+    height: 57px;
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    background-color: aliceblue;
+}
+
+a {
+    color: white;
+}
