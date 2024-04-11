@@ -4,11 +4,26 @@
 }
 
 #cabecalho {
-    background-image: url(img/cupcake.png);
     background-color: #e98ed5;
-    background-size: contain;
     width: 100%;
     height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cabecalho h1 {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+#logo {
+    margin-left: 20px; */
+    text-align: left;
+}
+
+#logo img {
+    width: 100px;
 }
 
 body {
@@ -19,10 +34,23 @@ a {
     color: aliceblue;
 }
 
+#corpo {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
 .cartazes {
     background-color: #818181;
     height: 500px;
     width: 400px;
-    margin: 10px 10px auto;
+    margin-top: 30px;
     border-radius: 10%;
+    justify-content: space-around;
+}
+
+.cartazes img {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
 }
