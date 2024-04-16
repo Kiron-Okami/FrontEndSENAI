@@ -1,0 +1,26 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#calcular {
+    background-color: rgb(66, 199, 144);
+    color: white;
+    border: none;
+}
+
+main {
+    margin: auto ;
+    display: flex;
+    flex-direction: column;
+    margin: 0% 30%;
+}
+
+input {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+    padding: 2px;
+    font-size: 21px;
+    margin: 20px;
+}
