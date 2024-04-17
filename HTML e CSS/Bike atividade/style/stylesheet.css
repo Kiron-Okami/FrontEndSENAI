@@ -1,0 +1,51 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    color: #CCCCCC;
+    display: flex;
+    flex-direction: row;
+}
+
+header div {
+    background-color: #3D3D3D;
+    padding: 15px;
+    width: 25%;
+    height: 20px;
+    text-align: center;
+}
+
+header div:hover {
+    background-color: #252525;
+}
+
+#titulos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#titulos section {
+    text-align: center;
+    width: 400px;
+    color: #b2b2b2;
+    margin: 100px 0px;
+}
+
+#agenda select {
+    width: 500px;
+    height: 40px;
+    background-color: #25252500;
+    border: 1px solid #9b9b9b;
+}
+
+.data {
+    background-color: #333333; 
+    width: 60px; height: 100px; 
+    margin-bottom: 40px; 
+    text-align: center; 
+    vertical-align: middle;
+}
