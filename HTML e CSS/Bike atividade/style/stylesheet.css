@@ -44,8 +44,10 @@ header div:hover {
 
 .data {
     background-color: #333333; 
-    width: 60px; height: 100px; 
+    width: 60px; 
+    height: 60px;
+    padding: 18px 5px; 
     margin-bottom: 40px; 
     text-align: center; 
-    vertical-align: middle;
+    color: #bbbbbb;
 }
