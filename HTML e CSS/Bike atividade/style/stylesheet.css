@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../Fonts/Roboto-Regular.ttf);
+}
+
 * {
     margin: 0%;
     padding: 0%;
@@ -8,7 +13,7 @@ header {
     color: #CCCCCC;
     display: flex;
     flex-direction: row;
-}
+} 
 
 header div {
     background-color: #3D3D3D;
@@ -40,6 +45,12 @@ header div:hover {
     height: 40px;
     background-color: #25252500;
     border: 1px solid #9b9b9b;
+}
+
+.eventos {
+    width: 100%;
+    height: 150px;
+    display: flex:
 }
 
 .data {
