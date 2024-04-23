@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/stylesheet.css">
+    <link rel="stylesheet" media="screen and (max-width: 860px)" href="style/mobile.css">
+    <!-- <link rel="stylesheet" media="print" href="style/teste.css"> -->
+    <link rel="stylesheet" media="screen and (orientation : landscape)" href="style/teste.css">
+    <title>Responsividade</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <button id="btnMobile" type="button" onclick="btnMobileTrocar()">
+                <img src="images/menuIcon.svg" alt="Menu Icon">
+            </button>
+            <ul id="menuMobile">
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul><ul id="menuPc">
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <picture>
+            <source media="screen and (max-width : 860px)" srcset="images/mulherdancandoMenor.jpg">
+        </picture>
+
+        <img src="images/mulherdancando.jpg" alt="Uma mulher dançando">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem mollitia rem, neque ipsam ab asperiores, itaque earum qui, est incidunt veritatis dolor nisi! Eum facilis vitae, suscipit explicabo maiores similique.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem mollitia rem, neque ipsam ab asperiores, itaque earum qui, est incidunt veritatis dolor nisi! Eum facilis vitae, suscipit explicabo maiores similique.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem mollitia rem, neque ipsam ab asperiores, itaque earum qui, est incidunt veritatis dolor nisi! Eum facilis vitae, suscipit explicabo maiores similique.</p>
+    </main>
+
+    <footer>
+        Todos os direitos reservados ₢
+    </footer>
+
+    <script>
+        function btnMobileTrocar() {
+            if (menuMobile.style.display == "flex") {
+                menuMobile.style.display = "none";
+            } else {
+                menuMobile.style.display = "flex";
+            }
+        }
+    </script>
+</body>
+</html>
