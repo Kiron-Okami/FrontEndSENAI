@@ -1,0 +1,36 @@
+#catalogoItens {
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    width: 80%;
+}
+
+#menuPC {
+    display: none;
+}
+
+#menuMobile {
+    width: 100%;
+    background-color: #2A2B2A;
+    display: none;
+    justify-content: center;
+}
+
+#menuMobile ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 0px;
+}
+
+#btnMobile {
+    color: whitesmoke;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    display: flex;
+}

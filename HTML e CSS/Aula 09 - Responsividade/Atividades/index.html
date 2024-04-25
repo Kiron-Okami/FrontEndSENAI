@@ -4,29 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/stylesheetPc.css">
+    <link rel="stylesheet" media="screen and (max-width : 680px)" href="styles/@media.css">
     <title>ArtMuseum</title>
 </head>
 <body>
     <header>
         <div id="banner"><h1>ArtMuseum</h1></div>
-        <nav>
+        <nav id="menuPC">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Galeria</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
+        <button type="button" id="btnMobile" onclick="alternarMenu()">
+            -
+        </button>
     </header>
+        <nav id="menuMobile">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
     <main>
-        <div id="titulo">
+        <section id="titulo">
             <h3>Destaque da semana</h3>
-        </div>
+            <hr>
+        </section>
         <div id="elizabeth">
-            <h3>Elizabeth</h3>
-            <source media="(min-width: 680px)" srcset="images\images\elizabeth">
-            <img src="images/images/elizabeth.jpg" alt="">
+            <h2 style="margin: 20px;">Elizabeth</h2>
+            <picture>
+                <source media="screen and (max-width : 680px)" srcset="images/images/elizabethMenor.png">
+                <img src="images/images/elizabeth.jpg" alt="">
+            </picture>
+            <p style="margin: 10px; color: #666666;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui eaque, quasi quas sapiente nisi blanditiis esse! Iusto, fugit maiores, reiciendis mollitia modi eius, odit dignissimos cupiditate similique eveniet labore nihil.</p>
+            <button type="button">Ver sobre</button>
         </div>
+        <section id="catalogo">
+            <h3>Artes</h3>
+            <hr>
+            <div id="catalogoItens">
+                <div class="item">
+                    <h4>Título da arte</h4>
+                    <img src="images/images/arte1.jpg" alt="">
+                    <button type="button"> VER SOBRE </button>
+                </div>
+                <div class="item">
+                    <h4>Título da arte</h4>
+                    <img src="images/images/arte2.jpg" alt="">
+                    <button type="button"> VER SOBRE </button>
+                </div>
+                <div class="item">
+                    <h4>Título da arte</h4>
+                    <img src="images/images/arte3.jpg" alt="">
+                    <button type="button"> VER SOBRE </button>
+                </div>
+            </div>
+        </section>
     </main>
     <footer></footer>
+
+    <script>
+        function alternarMenu(){
+            if(menuMobile.style.display == "none") {
+                menuMobile.style.display = "flex"
+            } else{
+                menuMobile.style.display = "none"
+            }
+        }
+    </script>
+
 </body>
 </html>
