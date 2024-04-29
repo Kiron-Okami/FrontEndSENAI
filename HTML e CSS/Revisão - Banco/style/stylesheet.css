@@ -105,14 +105,106 @@ header button {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
+    margin-bottom: 50px;
 }
 
 #metodos button {
     background: none;
     padding: 50px;
-    width: 10%;
+    height: 300px;
+    width: 250px;
     align-items: center;
     border: 1px solid rgba(0, 0, 0, 0.404);
-    border-radius: 2px;
+    border-radius: 5px;
+}
+
+/* Serviços */
+
+#servicos {
+    background-color: #302727;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+
+#servicos #texto {
+    width: 40%;
+    margin: 50px 20px;
+}
+
+#servicos img {
+    height: 500px;
+    margin: 10px;
+    border-radius: 7px;
+}
+
+#CartaoDeCredito {
+    background-image: url(../images/bannerBeneficios.jpg);
+    background-size: cover;
+    image-resolution: ;
+    width: 40%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 7px;
+}
+
+/* atendimento */
+
+#atendimento {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#catalogoCartao {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#catalogoCartao img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#horarios {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 5px 5px 2px #686868;
+    margin: 40px;
+    padding: 40px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: var(--corPrimaria);
+    color: whitesmoke;
+    padding: 20px;
+}
+
+td {
+    border: 1px solid #49494949;
+}
+
+th, td {
+    padding: 10px;
+}
+
+/* footer */
+
+footer {
+    background-color: var(--corPrimaria);
+    padding: 20px;
+}
+
+footer p {
+    color: whitesmoke; 
+    text-align: center;
 }
