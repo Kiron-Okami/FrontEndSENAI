@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/login.css">
+    <link rel="shortcut icon" href="images/planeta-roxo.png" type="image/x-icon">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <button id="menu" onclick="toggleMenu()">Log in</button>
+        <a id="logo" href="index.html">OKAMi'S</a>
+        <!-- elemento invisível para ajustar o css -->
+        <p style="color: #ffffff00;">.</p>
+    </header>
+    <main>
+        <section id="login">
+            <form action="post">
+                <label for="email">
+                    <h4>EMAIL</h4>
+                </label>
+                <input style="margin-bottom: 70px;" placeholder="exemplo@okami.com" type="text">
+                <br>
+                <label for="senha">
+                    <h4>SENHA</h4>
+                </label>
+                <input style="margin-bottom: 70px;" type="password">
+                <br>
+                <a href="pagina.html">
+                    <button class="conta" type="submit">Log in</button>
+                </a>
+            </form>
+            <h4 style="margin: 60px 0px;">ou</h4>
+            <a href="cadastro.html">
+                <button class="conta">cadastre-se</button>
+            </a>
+        </section>
+    </main>
+    <script>
+        function toggleMenu() {
+            if (login.style.display == "none") {
+                login.style.display = "block";
+            } else {
+                login.style.display = "none";
+            }
+        }
+    </script>
+</html>

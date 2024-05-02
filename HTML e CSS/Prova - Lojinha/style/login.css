@@ -1,0 +1,131 @@
+@font-face {
+    font-family: pixel;
+    src: url(../Font/upheavtt.ttf);
+} 
+
+@font-face {
+    font-family: robotronica;
+    src: url(../Font/Robotronica.otf);
+}
+
+@keyframes mostraMenu {
+    0% {
+        left: -500px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+:root {
+    --corPrimaria:#8d1f7b;
+}
+/* cabeçalho */
+
+header {
+    width: 100%;
+    height: 100px;
+    background: rgb(113,22,187);
+    background: linear-gradient(63deg, rgba(113,22,187,1) 6%, rgba(122,22,165,1) 20%, rgba(142,24,143,1) 37%, rgba(133,25,179,1) 70%, rgba(113,22,187,1) 86%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo {
+    text-decoration: none;
+    font-family: robotronica;
+    font-size: 60px;
+    margin: 3px 15px;
+    color: #ffffff;
+}
+
+#logo:hover {
+    background: rgb(180,28,205);
+    background: radial-gradient(circle, rgba(180,13,208,0.6867121848739496) 15%, rgba(103,0,153,0.8799894957983193) 100%);
+    /* Na animação do hover, os outros elementos se moviam de acordo com o crescimento do padding. Para consertar isso, coloquei a margem do tamanho do padding final da animação, diminuindo junto com a animação */
+    margin: 0px;
+    padding: 3px 15px;
+    border-radius: 30px;
+    transition: 50ms;
+}
+
+#menu {
+    width: 70px;
+    height: 50px;
+    margin: 5px 15px;
+    font-family: pixel;
+    text-decoration: none;
+    color: #fcb8fc;
+    background: none;
+    border: 3px solid #c713be;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu:hover {
+    background-color: #f516d7;
+    border-color: #c501ec;
+    transition: 80ms;
+    width: 100px;
+    height: 60px;
+    margin: 0px 0px;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* corpo */
+
+main {
+    width: 100%;
+    height: 900px; 
+    background-image: url(../images/Muse\ Dash\ GIF.gif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+#login {
+    animation: mostraMenu 1s;
+    background: rgb(113,22,187);
+    background: linear-gradient(84deg, rgba(113,22,187,1) 6%, rgba(122,22,165,1) 22%, rgba(142,24,143,1) 44%, rgba(113,22,187,0) 70%);
+    width: 55%;
+    height: 690px;
+    padding: 90px 60px;
+    font-family: pixel;
+    font-size: 40px;
+    color: white;
+    display: none;
+    position: absolute;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+    height: 20px;
+    padding: 10px 8px;
+    font-size: 16px;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+.conta {
+    width: 20%;
+    padding: 15px;
+    font-family: pixel;
+    font-size: 20px;
+    color:white; 
+    background-color: #ba2dd6;
+    border: none;
+    border-radius: 10px;
+}
