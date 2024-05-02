@@ -12,20 +12,52 @@
     src: url(../Font/upheavtt.ttf);
 } 
 
+@font-face {
+    font-family: robotronica;
+    src: url(../Font/Robotronica.otf);
+}
+
 /* cabeçalho */
+
+ul {
+    list-style: none;
+}
 
 header {
     width: 100%;
-    height: 50px;
+    height: 60px;
     background: rgb(113,22,187);
     background: linear-gradient(63deg, rgba(113,22,187,1) 6%, rgba(122,22,165,1) 20%, rgba(142,24,143,1) 37%, rgba(133,25,179,1) 70%, rgba(113,22,187,1) 86%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    text-decoration: none;
+    font-family: robotronica;
+    font-size: 40px;
+    color: white;
+}
+
+#logo:hover {
+    transition: 1s;
+    background: rgb(224,0,231);
+    background: linear-gradient(135deg, rgba(224,0,231,1) 0%, rgba(215,217,51,1) 51%, rgba(68,0,237,1) 100%);
+}
+
+ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* corpo */
 
 main {
     width: 100%;
-    height: 900px; /* temp */
+    height: 900px; 
     background-image: url(../images/Muse\ Dash\ GIF.gif);
     background-size: cover;
     background-position: center;
@@ -41,6 +73,7 @@ main {
     font-size: 40px;
     color: white;
 }
+
 
 /* rodapé */
 
