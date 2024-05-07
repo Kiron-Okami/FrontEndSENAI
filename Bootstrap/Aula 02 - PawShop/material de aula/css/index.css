@@ -1,0 +1,24 @@
+:root {
+    --azul: #6eb3d0;
+    --verde: #b6d7a8;
+    --rosa: #F7B6D2;
+    --laranja: #F4A623;
+    --preto: #242424;
+    --branco : #f5f5f5;
+}
+
+header nav {
+    background-color: var(--azul);
+}
+
+#intro {
+    color: var(--azul);
+}
+
+#catalogo {
+    color: var(--laranja);
+}
+
+footer {
+    background-color: var(--azul);
+}

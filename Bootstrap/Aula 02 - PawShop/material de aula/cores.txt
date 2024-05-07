@@ -1,0 +1,6 @@
+azul - #6EB3D0
+verde - #B6D7A8
+rosa - 
+laranja - 
+preto - 
+branco - #FFFFFF
