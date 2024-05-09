@@ -10,14 +10,45 @@
 </head>
 <body>
     <!-- header -->
-    <header></header>
     <!-- main -->
-    <main>
-        <nav style="width: 20%;">
+    <main class="conteiner-fluid d-flex">
+        <!-- Side bar -->
+        <section id="sidebar" class="p-4">
             <a href="index.html">
-                <img height="60rem" src="Spotfy/Logo/Spotify_logo_without_text.svg" alt="">
+                <img style="height: 49px;" height="60rem" src="Spotfy/Logo/Spotify_logo_without_text.svg" alt="">
             </a>
-        </nav>
+        </section>
+        <!-- nav -->
+        <header style="width: 100%;" class="conteiner-fluid">
+            <nav class="nav conteiner-fluid d-flex flex-row justify-content-center m-4">
+                <ul class="nav-underline d-flex gap-5 p-0 m-0">
+                    <li>
+                        <a class="nav-link active" href="index.html">FEATURED</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">GENRES & MOODS</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">NEW RELEASES</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">DISCOVER</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="conteiner-fluid d-flex flex-column align-items-center">
+            <h1>winding down...</h1>
+            <div class="grupoMusicas container-fluid gap-3 d-flex">
+                <!-- musica 1 -->
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+        </section>
     </main>
     <!-- footer -->
     <footer></footer>
