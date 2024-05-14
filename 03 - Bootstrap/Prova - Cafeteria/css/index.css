@@ -5,6 +5,7 @@
 
 :root {
     --primaria: #BA8560;
+    --secundaria: #613c22;
 }
 
 #navegacao {
@@ -23,4 +24,24 @@
 
 .nav-item, .nav-link:hover {
     color: #5f422d;
+}
+
+.btn {
+    border-color: var(--secundaria);
+    color: var(--secundaria);
+}
+
+.btn:hover {
+    background-color: var(--secundaria);
+    border-color: var(--secundaria);
+}
+
+/* Main */
+
+#carouselExampleCaptions {
+    background-color: var(--secundaria)
+}
+
+footer {
+    background-color: var(--primaria);
 }
