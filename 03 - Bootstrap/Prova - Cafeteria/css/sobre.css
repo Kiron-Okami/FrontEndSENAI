@@ -1,0 +1,49 @@
+@font-face {
+    font-family: curse;
+    src: url(../fonts/Daily.otf);
+} 
+
+:root {
+    --primaria: #BA8560;
+    --secundaria: #613c22;
+}
+
+#navegacao {
+    background-color: var(--primaria);
+}
+
+#logo {
+    font-family: curse;
+    font-size: 50px;
+    color: #f5f5f5;
+}
+
+.nav-item, .nav-link, .active {
+    color: #f5f5f5;
+}
+
+.nav-item, .nav-link:hover {
+    color: #5f422d;
+}
+
+.btn {
+    border-color: var(--secundaria);
+    color: var(--secundaria);
+}
+
+.btn:hover {
+    background-color: var(--secundaria);
+    border-color: var(--secundaria);
+}
+
+/* main */
+
+#nos {
+    min-height: 700px;
+}
+
+/* footer */
+
+footer {
+    background-color: var(--primaria);
+}
