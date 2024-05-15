@@ -26,20 +26,48 @@
     color: #5f422d;
 }
 
-.btn {
+header .btn {
     border-color: var(--secundaria);
     color: var(--secundaria);
 }
 
-.btn:hover {
+header .btn:hover {
     background-color: var(--secundaria);
     border-color: var(--secundaria);
 }
 
-/* Main */
+/* main */
 
-#carouselExampleCaptions {
-    background-color: var(--secundaria)
+#catalogo {
+    min-height: 500px;
+}
+
+#lista a {    
+    text-decoration: none;
+    color: black;
+}
+
+#lista a:hover {
+    text-decoration: underline;
+}
+
+.tituloLista {
+    font-weight: bold;
+}
+
+#produtos .btn {
+    background-color: var(--primaria); 
+    color: #000000;
+}
+
+#produtos .btn:hover {
+    color: #f5f5f5;
+}
+
+.card-text {
+    color: #55be4b; 
+    font-size: 24px; 
+    font-weight: bold;
 }
 
 /* footer */
