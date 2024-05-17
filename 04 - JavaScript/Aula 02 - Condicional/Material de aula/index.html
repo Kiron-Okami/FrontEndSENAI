@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionais</title>
+    <style>
+        body {
+            background-color: #535353;
+        }
+    </style>
+</head>
+<body>
+    <button type="button" onclick="seSenao()">Se Senao</button>
+    <button type="button" onclick="caso()">caso</button>
+    <button type="button" onclick="teste()">teste</button>
+
+    <h2 style="color: aliceblue;">Lojinha</h2>
+    <button type="button" onclick="carrinho('Rojão',20)">ROJÃO - $20</button>
+    <button type="button" onclick="carrinho('PlayStation',1000)">PLAYSTATION - $1000</button>
+    <button type="button" onclick="carrinho('Imposto',5000)">IMPOSTO - $5000</button>
+    <button type="button" onclick="carrinho('Pão de Queijo',10)">PÃO DE QUEIJO - $10</button>
+    <button type="button" onclick="carrinho('',10)">BUG</button><br><br><br>
+    <button style="padding: 10px; margin-left: 100px;" type="button" onclick="totalCarrinho()">Verificar valor total</button>
+    <button style="padding: 10px; margin-left: 100px;" type="button" onclick="zerarCarrinho()">Zerar carrinho</button>
+
+    <script src="script/script.js"></script>
+    <script src="script/lojinha.js"></script>
+</body>
+</html>
