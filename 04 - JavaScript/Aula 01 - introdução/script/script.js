@@ -8,7 +8,6 @@ var varTeste
 varTeste = true
 
 const constTeste = 0
-
 function teste() {
     let letTeste = 0
 }
