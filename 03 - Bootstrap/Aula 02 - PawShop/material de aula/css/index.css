@@ -22,3 +22,7 @@ header nav {
 footer {
     background-color: var(--azul);
 }
+
+#adote p {
+    color: var(--azul);
+}
