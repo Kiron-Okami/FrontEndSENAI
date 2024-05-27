@@ -1,5 +1,4 @@
 // POO (Programação Orientada a Obejto)
-
 // class = é um molde de um Objeto
 class Cliente {
     nome;
@@ -18,7 +17,6 @@ class Cliente {
         return `O valor de R$ ${valor} foi depositado com sucesso!`
     }
 }
-
 var cliente1 = new Cliente;
 cliente1.nome = "Leo";
 cliente1.conta = 1;
