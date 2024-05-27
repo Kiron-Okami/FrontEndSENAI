@@ -1,11 +1,12 @@
-// Pega valores do site
-var empregado = document.querySelector("#empregado");
-var filhos = document.querySelector("#filhos").value;
-var salario = document.querySelector("#salario").value;
-
 // Calcula o salário família
 function calculo() {
-    if (salario <= 806.80) {
+    // Pega valores do site
+    var empregado = document.querySelector("#empregado");
+    var filhos = document.querySelector("#filhos").value;
+    var salario = document.querySelector("#salario").value;
+
+    // Calculo
+    if (salario <= 806.80 && salario > 0) {
         var cota = filhos * 41.37;
     } else if (salario >= 806.81 && salario <= 1212.64) {
         var cota = filhos * 29.16;
