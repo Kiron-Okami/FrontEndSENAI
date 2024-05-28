@@ -3,11 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
     <title>Carro</title>
 </head>
 <body>
-    <h1>Nome: <samp>figueredo</samp></h1>
-    <h1>Velocidade Máxima: <samp>120 Km/h</samp></h1>
+    <div id="principal">
+        <input type="text" id="marca" placeholder="Marca do carro">
+        <input type="text" id="modelo" placeholder="Modelo do carro">
+        <select id="cor">
+            <option value="vermelho">Vermelho</option>
+            <option value="cinza">Cinza</option>
+            <option value="preto">Preto</option>
+            <option value="branco">Branco</option>
+        </select>
+        <input type="number" id="velMax" placeholder="Velocidade Máxima">
+        <button type="button" id="cadastrarBtn">Cadastrar carro!</button>
+        <!-- Carro -->
+        <div id="carro" class="vermelho">
+            <div id="janelas">
+                <div class="janela"></div>
+            </div>
+            <div id="rodas">
+                <div class="roda"></div>
+                <div class="roda"></div>
+            </div>
+        </div>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>
