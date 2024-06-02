@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+        body {
+            background-color: #9e0d0d;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        #jogo {
+            background-color: whitesmoke;
+            border-radius: 10px;
+            padding-top: 40px;
+            width: 300px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        button {
+            border: none;
+            color: whitesmoke;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #dano{
+            background-color: red;
+        }
+        #curar {
+            background-color: green;
+        }
+        #dano:hover {
+            background-color: #a80000;
+            transition: 0.2s;
+        }
+        #curar:hover {
+            background-color: #006a00;
+            transition: 0.2s;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section id="jogo">
+            <figure style="display: flex; flex-direction: column; align-items: center;">
+                <img id="pokemon" src="img/litten.png" alt="Pokemon" style="height: 190px; margin-bottom: 50px;">
+                <figcaption><h3 style="margin-bottom: 10px;"><span id="pkmNome">Litten</span></h3></figcaption>
+            </figure>
+            <p><b>HP: </b><span id="vida">100</span>/100</p>
+            <div style="margin-top: 30px;">
+                <button id="dano" type="button" onclick="dano()">Atacar</button>
+                <button id="curar" type="button" onclick="curar()">Curar</button>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
