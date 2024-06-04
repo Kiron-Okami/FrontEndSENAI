@@ -1,0 +1,95 @@
+/* brown
+white
+black
+wheat
+rgb(152, 123, 93) */
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+/* Cabecalho */
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+#cabecalho {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #987b5d;
+    color: whitesmoke;
+}
+
+#cabecalho img {
+    height: 100%;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    li {
+        padding: 20px;
+    }
+}
+
+nav a {
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+
+/* corpo */
+
+main {
+    background-color: #ebebeb;
+    min-height: 700px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#artigo {
+    width: 80%;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+#capa {
+    background-image: url(../images/nathan-dumlao-6VhPY27jdps-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    margin: 20px;
+    height: 400px;
+    width: 700px;
+}
+
+/* rodapé */
+
+footer {
+    width: 100%;
+    min-height: 100px;
+    background-color: black;
+}
