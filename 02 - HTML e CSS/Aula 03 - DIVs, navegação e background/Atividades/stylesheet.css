@@ -15,6 +15,7 @@
 #cabecalho h1 {
     font-size: 40px;
     font-family: cursive;
+    color: whitesmoke;
 }
 
 #logo {
@@ -40,17 +41,22 @@ a {
     justify-content: center;
 }
 
-.cartazes {
-    background-color: #818181;
-    height: 500px;
-    width: 400px;
+.catalogo {
     margin-top: 30px;
-    border-radius: 10%;
-    justify-content: space-around;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.cartazes {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    height: 250px;
+    width: 350px;
+    border-radius: 15px;
 }
 
 .cartazes img {
     width: 80%;
-    display: flex;
-    justify-content: space-around;
 }
