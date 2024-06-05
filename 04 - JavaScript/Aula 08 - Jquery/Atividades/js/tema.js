@@ -5,3 +5,6 @@ $(`#btnTema`).on(`click`, function(){
         $(`body`).attr(`data-bs-theme`, `light`);
     }
 })
+
+// valor 
+var valor = 0;
