@@ -1,0 +1,28 @@
+/* Global */
+@font-face {
+    font-family: logo;
+    src: url(../fonts/5\ Thumbs\ Up\ Bold.otf);
+}
+
+/* Header Global*/
+
+#logo {
+    font-size: 30px;
+    font-family: logo;
+}
+
+/* Main */
+
+main{
+    min-height: 100vh;
+}
+
+.carrossel-imagem{
+    min-height: 70vh;
+}
+
+/* Footer global */
+
+footer {
+    height: 200px;
+}
