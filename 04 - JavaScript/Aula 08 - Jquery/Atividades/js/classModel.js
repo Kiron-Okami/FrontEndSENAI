@@ -8,5 +8,3 @@ class produtoTurismo {
         this.imagem = imagem
     }
 }
-
-var teste = new produtoTurismo(`NomeLocal`, `desc`, [`carro`], 5, 100, `src`);
