@@ -1,3 +1,5 @@
+
+// Adiciona os filmes automaticamente no indes.html
 class filme {
     constructor (nome, desc, capa, preco){
         this.nome = nome
@@ -26,4 +28,13 @@ catalogo.forEach((elemento) => {
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#poltronas">Ver seção</button>
             </div>
         `);
+})
+
+// Seleciona poltronas do cinema
+$(`.poltrona`).on(`click`, function(){
+    if($(`.poltrona`).css(`background-color`) == `gray`){
+        $(`body`).css(`data-bs-theme`, `dark`);
+    }else{
+        $(`body`).attr(`data-bs-theme`, `light`);
+    }
 })
