@@ -23,7 +23,7 @@ catalogo.forEach((elemento) => {
                 <h5 class="pt-2">${elemento.nome}</h5>
                 <p>${elemento.desc}</p>
                 <p class="text-success">R$ ${elemento.preco}</p>
-                <button type="button" class="btn btn-primary">Ver seção</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#poltronas">Ver seção</button>
             </div>
         `);
 })
