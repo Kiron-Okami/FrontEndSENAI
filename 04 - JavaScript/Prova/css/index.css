@@ -26,8 +26,13 @@ main{
 }
 
 .filme {
-    background-color: #475155;
     width: 250px;
+    height: 450px;
+    border-radius: 15px;
+}
+
+.filme-capa {
+    width: 200px;
     height: 350px;
     border-radius: 15px;
 }
