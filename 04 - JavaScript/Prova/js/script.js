@@ -31,10 +31,3 @@ catalogo.forEach((elemento) => {
 })
 
 // Seleciona poltronas do cinema
-$(`.poltrona`).on(`click`, function(){
-    if($(`.poltrona`).css(`background-color`) == `gray`){
-        $(`body`).css(`data-bs-theme`, `dark`);
-    }else{
-        $(`body`).attr(`data-bs-theme`, `light`);
-    }
-})
