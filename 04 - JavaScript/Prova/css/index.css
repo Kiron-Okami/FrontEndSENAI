@@ -52,6 +52,10 @@ main{
     border: 2px solid #343434;
     background-color: rgb(73, 73, 73);
 }
+
+.fileira {
+    width: 110px;
+}
     
 /* Footer global */
 
