@@ -21,6 +21,17 @@ main{
     min-height: 70vh;
 }
 
+#cartaz{
+    width: 70%;
+}
+
+.filme {
+    background-color: #475155;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+}
+
 /* Footer global */
 
 footer {
