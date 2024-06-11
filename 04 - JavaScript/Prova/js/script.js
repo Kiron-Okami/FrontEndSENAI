@@ -31,3 +31,9 @@ catalogo.forEach((elemento) => {
 })
 
 // Seleciona poltronas do cinema
+var total = Number;
+var qtnPoltronas = Number;
+
+$(`.poltrona`).on(`click`, function () {
+    $(this).toggleClass(`poltrona-escolhida`);
+});

@@ -53,6 +53,10 @@ main{
     background-color: rgb(73, 73, 73);
 }
 
+.poltrona-escolhida {
+    background-color: greenyellow !important; 
+}
+
 .fileira {
     width: 110px;
 }
