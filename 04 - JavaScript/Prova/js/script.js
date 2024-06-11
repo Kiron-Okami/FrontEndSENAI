@@ -1,5 +1,5 @@
 
-// Adiciona os filmes automaticamente no indes.html
+// Adiciona os filmes automaticamente no index.html
 class filme {
     constructor (nome, desc, capa, preco){
         this.nome = nome
@@ -25,15 +25,31 @@ catalogo.forEach((elemento) => {
                 <h5 class="pt-2">${elemento.nome}</h5>
                 <p>${elemento.desc}</p>
                 <p class="text-success">R$ ${elemento.preco}</p>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#poltronas">Ver seção</button>
+                <button type="button" onclick="modal('${elemento.nome}', ${elemento.preco})" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#poltronas">Ver seção</button>
             </div>
         `);
 })
 
-// Seleciona poltronas do cinema
-var total = Number;
-var qtnPoltronas = Number;
+// Seleciona poltronas do cinema no modal com o filme em específico
+var total = 0;
+// var qtnPoltronas = ;
+var precoAtual;
 
 $(`.poltrona`).on(`click`, function () {
     $(this).toggleClass(`poltrona-escolhida`);
+    $(`.poltrona-escolhida`).length;
+    total += precoAtual * $(`.poltrona-escolhida`).length
+    $(`#total`).text(total);
 });
+
+function modal(mNome, mPreco){
+    $(`#filmeTitulo`).text(mNome);
+    precoAtual = mPreco;
+}
+
+// Limpa o modal
+function limpaModal() {
+    $(`.poltrona-escolhida`).removeClass(`poltrona-escolhida`);
+    total = 0;
+    $(`#total`).text(total);
+}
