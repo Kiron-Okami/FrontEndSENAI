@@ -38,7 +38,7 @@ var precoAtual;
 $(`.poltrona`).on(`click`, function () {
     $(this).toggleClass(`poltrona-escolhida`);
     $(`.poltrona-escolhida`).length;
-    total += precoAtual * $(`.poltrona-escolhida`).length
+    total = precoAtual * $(`.poltrona-escolhida`).length
     $(`#total`).text(total);
 });
 
